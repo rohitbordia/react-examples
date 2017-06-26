@@ -1,0 +1,47 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    height: 100%;
+}
+
+.buttons-top {
+    display: block;
+    padding: 10px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.login {
+    background-color: transparent;
+}
+
+.login:hover {
+    background-color: #fff;
+    color: #9eb7b2;
+}
+
+.join {
+    margin-left: 20px;
+    background-color: #fff;
+    color: #9eb7b2;
+}
+
+.join:hover {
+    background-color: #9eb7b2;
+    color: #fff;
+}
+
+.navigation {
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 5px grey;
+}
